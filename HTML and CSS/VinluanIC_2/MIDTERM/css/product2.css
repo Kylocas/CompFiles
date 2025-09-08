@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    background: #e7e5e5;
+    
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px;
+    text-align: center;
+    gap: 3%;
+    margin: 0 auto;
+    padding: 0%;
+    margin-top: 100px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background-color: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+    height: 380px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+header, section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, white, rgb(0, 0, 0));
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.prices {
+    font-weight: bold;
+}
+
+.container1 {
+    background-color: white;
+    display: flex;
+    line-height: 1;
+    width: 150%;
+    height: 150px;
+    margin-right: 300px;
+}
+
+#header1 {
+    display: flex;
+    text-align: flex-start;
+    font-size: 2.5em;
+    padding: 18px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+#tagline{
+    display: flex;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: -28px;
+    text-align: flex-start;
+    margin-right: 40px;
+}
+
+#tagline2 {
+    display: flex;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 380px;
+}

@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to right, #f1eee3, #ffffff);
+}
+
+.container {
+    background-color:#f1eee3;
+    color: white;
+    font-family: 12em Arial, Helvetica, sans-serif;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container h1{
+    display: flex;
+    text-align: flex-start;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-right: 45px;
+    color: black;
+}
+
+#logo{
+    margin: 5px;
+    float: left;
+    margin-left: -0px;
+    border-radius: 100%;
+    
+}
+
+.nav_ul ul{
+    list-style-type: none;
+    gap: 5%;
+    position: fixed;
+    margin-left: 650px;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    color: rgb(245, 245, 245);
+    font-size: 23px;
+}
+
+li {
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+a:link {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color: white;
+}
+a:active{
+    color: white;
+}
+
+footer {
+    margin-top: 175px;
+    text-align: center;
+}
+
+#hbutton {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 615px;
+    width: fit-content;
+}
+
+.container2 {
+    display: flex;
+    margin-left: 580px;
+    width: fit-content;
+    flex-direction: column;
+    margin-top: 65px;
+    gap: 35px;
+    border: none;
+    padding: 14px 40px;
+}
+
+#Subscribe {
+    background-color: #f44336;
+    background-image: linear-gradient(to right, #FF0000, #8B0000);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Tweet {
+    background-color: #1DA1F2;
+    background-image: linear-gradient(to right, #87CEEB, #ADD8E6);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Shop {
+    background-color: burlywood;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+

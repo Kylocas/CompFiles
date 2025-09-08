@@ -1,0 +1,147 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(to right, #f1eee3, #ffffff);
+}
+
+.container2.column.li2.ul2.lims {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+.container {
+    background-color:#f1eee3;
+    color: white;
+    font-family: 12em Arial, Helvetica, sans-serif;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container h1{
+    display: flex;
+    text-align: flex-start;
+    font-size: 2.5em;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-right: 45px;
+    color: black;
+}
+
+#logo{
+    margin: 5px;
+    float: left;
+    margin-left: -0px;
+    border-radius: 100%;
+    
+}
+
+
+
+
+.project-columns {
+    display: flex;
+    gap: 30px; 
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 120px; 
+    margin-bottom: 40px; 
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    min-height: 320px; 
+    height: 320px;     
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.lims {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.l2 {
+  padding: 5px 0;
+  text-align: center;
+  border-bottom: 1px dashed #ddd;
+}
+
+.l2:last-child {
+    border-bottom: none;
+}
+
+
+.nav_ul ul{
+    list-style-type: none;
+    gap: 5%;
+    position: relative;
+     margin-left: 650px;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    color: rgb(245, 245, 245);
+    font-size: 23px;
+}
+
+.li1 {
+    flex-direction: row;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+#midterm {
+    
+}
+
+
+a:link {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color: white;
+}
+a:active{
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: -20px;
+    background-color: #f1eee3; 
+    color: black;              
+    width: 100vw;              
+    position: relative;        
+    left: 0;
+    box-sizing: border-box;
+}

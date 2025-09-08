@@ -1,0 +1,31 @@
+* {
+    background-color: blanchedalmond;
+}
+
+#head_1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    justify-content: center;
+    text-align: center;
+}
+
+P{
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: brown;
+    box-shadow: 0px 0px 10px black;
+    max-width: 5000px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px blue;
+}
+
+button {
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px blue;  
+    }

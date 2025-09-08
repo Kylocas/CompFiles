@@ -1,0 +1,78 @@
+.container {
+    background-color: #0572d5;
+    color: white;
+    font-family: 12em Arial, Helvetica, sans-serif;
+    line-height: 1;
+    width: 100%;
+    height: 160px;
+}
+.container h1{
+    display: flex;
+    text-align: flex-start;
+    font-size: 2.5em;
+    padding: 18px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+}
+p{
+    display: flex;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-top: -40px;
+    text-align: flex-start;
+    margin-right: 40px;
+}
+#logo{
+    margin: 5px;
+    float: left;
+    width: fit-content;
+    mix-blend-mode:normal;
+}
+#form1{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    padding: 40px;
+}
+#btn_search{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    padding: 40px;
+}
+.nav_ul ul{
+    list-style-type: none;
+    gap: 5%;
+    display: flex;
+    top: 100px;
+    right: 40px;
+    padding: 40px;
+    color: white;
+    font-size: 23px;
+    justify-content: center;
+    margin-top: -19px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active{
+    color: white;
+}
+input {
+    width: 250px;
+    height: 25px;
+}
+

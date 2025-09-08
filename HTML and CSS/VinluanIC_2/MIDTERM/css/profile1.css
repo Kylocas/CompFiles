@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    
+}
+
+.profile_card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px black;
+    padding: 30px;
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 15px green;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 15%;    
+}

@@ -39,7 +39,7 @@ public class Payroll {
             regular_pay = rate_per_hour * 40;
         } else {
             regular_pay = rate_per_hour * hours_worked;
-            System.out.println("\nOvertime Hours: 0"); 
+            System.out.println("Overtime Hours: 0"); 
         }
 
         System.out.println("Rate per hour: " + rate_per_hour);

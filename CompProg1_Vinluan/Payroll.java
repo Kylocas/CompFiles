@@ -31,7 +31,7 @@ public class Payroll {
         } 
 
         System.out.print("Hours Worked: ");
-        hours_worked = input.nextInt();
+        hours_worked = input.nextDouble();
 
         if (hours_worked > 40) {
             overtime_hour = hours_worked - 40;

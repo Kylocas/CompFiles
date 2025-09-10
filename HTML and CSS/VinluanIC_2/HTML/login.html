@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="login.css" rel="stylesheet">
 </head>
 <body>
-    <h1> Login Page </h1>
-    <form action="main.html">
-        Username: <br>
-        <input type="text" name="uname"
-        value=""> <br>
-        <input type="password" name="pword"
-        value="">
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <div class="logo-title">
+            <img src="../HTML/SFStyle Default.png" alt="SFStyle Logo" class="logo">
+            <h1>Login</h1>
+        </div>
+        <form action="User_Account_Page.html">
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" minlength="4" maxlength="20" required>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" minlength="4" maxlength="20" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

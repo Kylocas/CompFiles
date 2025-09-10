@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account Page</title>
+    <link href="user_account.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-title">
+            <img src="../HTML/SFStyle Default.png" alt="SFStyle Logo" class="logo">
+            <h1>User Account Page</h1>
+        </div>
+        <form action="login.html">
+            <label for="FirstName">First Name:</label>
+            <input type="text" id="f_name" name="FirstName">
+
+            <label for="LastName">Last Name:</label>
+            <input type="text" id="l_name" name="LastName">
+
+            <label for="Birthday">Birthday:</label>
+            <input type="date" id="Birthday" name="Birthday">
+
+            <label for="Gender">Gender:</label>
+            <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Sign-In">
+        </form>
+    </div>
+</body>
+</html>

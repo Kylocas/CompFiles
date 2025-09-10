@@ -1,0 +1,59 @@
+  body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background: #fff;
+        }
+        .container {
+            background-color: lightgray;
+            width: 500px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 32px 0 32px 0;
+            gap: 12px;
+        }
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        label {
+            font-size: 1.1em;
+        }
+        input[type="text"], input[type="date"], input[type="email"], input[type="password"], select {
+            width: 80%;
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            background: #fff;
+            color: lightgray;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 1em;
+        }
+        h1 {
+            margin-bottom: 16px;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }

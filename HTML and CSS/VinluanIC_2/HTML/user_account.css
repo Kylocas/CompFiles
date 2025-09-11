@@ -35,6 +35,13 @@ h1 {
     text-align: center; 
     padding-left: 0;
 }
+
+#Gender {
+    display: flex; 
+    gap: 16px;
+    margin-bottom: 2px;
+}
+
 form {
     display: flex;
     flex-direction: column;

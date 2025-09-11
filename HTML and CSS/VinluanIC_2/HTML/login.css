@@ -50,7 +50,7 @@ body {
         margin-bottom: 2px; 
         margin-left: 4px;
     }
-    input[type="text"], input[type="password"] {
+    input[type="text"], input[type="password"], input[type="email"] {
         width: 100%; 
         padding: 8px;
         border-radius: 8px;
